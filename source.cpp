@@ -20,6 +20,8 @@ HBRUSH hBrushBlue = CreateSolidBrush(RGB(0, 0, 255));  // Blue for 'X'
 HBRUSH hBrushRed = CreateSolidBrush(RGB(255, 0, 0));   // Red for 'O'
 HBRUSH hBrushDefault = CreateSolidBrush(RGB(0, 0, 0)); // Black for empty cells
 
+// Function prototypes
+void UpdateButtonFontSize(HWND button, int buttonWidth, int buttonHeight);
 int minimax(int board[SIZE][SIZE], int alpha, int beta, bool isMax);
 void findBestMove(int board[SIZE][SIZE], int *bestI, int *bestJ);
 void HandleButtonClick(WPARAM wParam, HWND hwnd);
@@ -89,6 +91,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
                              j * buttonWidth, i * buttonHeight,
                              buttonWidth, buttonHeight,
                              SWP_NOZORDER);
+
+                // Update the button font size
+                UpdateButtonFontSize(buttons[i][j], buttonWidth, buttonHeight);
             }
         }
     }
@@ -237,10 +242,22 @@ void HandleButtonClick(WPARAM wParam, HWND hwnd)
     }
 }
 
+void UpdateButtonFontSize(HWND button, int buttonWidth, int buttonHeight)
+{
+    // Calculate the font size based on button dimensions
+    int fontSize = std::min(buttonWidth, buttonHeight) / 2;
+
+    // Set font size for the text on the button
+    HFONT hFont = CreateFont(fontSize, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, DEFAULT_CHARSET,
+                             OUT_OUTLINE_PRECIS, CLIP_DEFAULT_PRECIS, CLEARTYPE_QUALITY, VARIABLE_PITCH, TEXT("Arial"));
+    SendMessage(button, WM_SETFONT, WPARAM(hFont), TRUE);
+}
+
 void UpdateBoard(int i, int j)
 {
     board[i][j] = turn ? 1 : 2; // 1 for 'X', 2 for 'O'
     SetWindowText(buttons[i][j], turn ? "X" : "O");
+
     turn = !turn; // Switch turns
 }
 
