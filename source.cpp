@@ -20,8 +20,8 @@ HBRUSH hBrushBlue = CreateSolidBrush(RGB(0, 0, 255));  // Blue for 'X'
 HBRUSH hBrushRed = CreateSolidBrush(RGB(255, 0, 0));   // Red for 'O'
 HBRUSH hBrushDefault = CreateSolidBrush(RGB(0, 0, 0)); // Black for empty cells
 
+int minimax(int board[SIZE][SIZE], int alpha, int beta, bool isMax);
 void findBestMove(int board[SIZE][SIZE], int *bestI, int *bestJ);
-int minimax(int board[SIZE][SIZE], bool isMax);
 void HandleButtonClick(WPARAM wParam, HWND hwnd);
 void UpdateBoard(int i, int j);
 int CheckWinner();
@@ -366,16 +366,17 @@ void ResetGame()
     }
 }
 
-int minimax(int board[SIZE][SIZE], bool isMax)
+int minimax(int board[SIZE][SIZE], int alpha, int beta, bool isMax)
 {
-    int winner = CheckWinner(); // Check if there is a winner
+    int winner = CheckWinner();
 
     if (winner == 1)
-        return -10; // Player wins
+        return -10;
     if (winner == 2)
-        return 10; // AI wins
+        return 10;
+    if (winner == 3)
+        return 0;
 
-    // Check for tie
     bool tie = true;
     for (int i = 0; i < SIZE && tie; i++)
         for (int j = 0; j < SIZE; j++)
@@ -383,40 +384,66 @@ int minimax(int board[SIZE][SIZE], bool isMax)
                 tie = false;
 
     if (tie)
-        return 0; // Tie game
+    {
+        return 0;
+    }
 
     if (isMax)
     {
-        int maxEval = -9999;
+        int bestScore = -9999;
+
         for (int i = 0; i < SIZE; i++)
+        {
             for (int j = 0; j < SIZE; j++)
+            {
                 if (board[i][j] == 0)
                 {
-                    board[i][j] = 2; // AI's move
-                    int eval = minimax(board, false);
-                    board[i][j] = 0; // Undo move
-                    maxEval = std::max(maxEval, eval);
+                    board[i][j] = 2;                                // Try the computer's move
+                    int score = minimax(board, alpha, beta, false); // Start minimax for the player's turn
+                    board[i][j] = 0;                                // Reset the move
+
+                    bestScore = std::max(bestScore, score);
+                    alpha = std::max(alpha, bestScore);
+
+                    if (beta <= alpha)
+                        break;
                 }
-        return maxEval;
+            }
+        }
+
+        return bestScore;
     }
     else
     {
-        int minEval = 9999;
+        int bestScore = 9999;
+
         for (int i = 0; i < SIZE; i++)
+        {
             for (int j = 0; j < SIZE; j++)
+            {
                 if (board[i][j] == 0)
                 {
-                    board[i][j] = 1; // Player's move
-                    int eval = minimax(board, true);
-                    board[i][j] = 0; // Undo move
-                    minEval = std::min(minEval, eval);
+                    board[i][j] = 1;                               // Try the player's move
+                    int score = minimax(board, alpha, beta, true); // Start minimax for the computer's turn
+                    board[i][j] = 0;                               // Reset the move
+
+                    bestScore = std::min(bestScore, score);
+                    beta = std::min(beta, bestScore);
+
+                    if (beta <= alpha)
+                        break;
                 }
-        return minEval;
+            }
+        }
+
+        return bestScore;
     }
 }
 
 void findBestMove(int board[SIZE][SIZE], int *bestI, int *bestJ)
 {
+    int alpha = -9999;
+    int beta = 9999;
 
     int bestScore = -9999;
 
@@ -425,10 +452,10 @@ void findBestMove(int board[SIZE][SIZE], int *bestI, int *bestJ)
         for (int j = 0; j < SIZE; j++)
         {
             if (board[i][j] == 0)
-            {                                      // If cell is empty
-                board[i][j] = 2;                   // Try the computer's move
-                int score = minimax(board, false); // Start minimax for the player's turn
-                board[i][j] = 0;                   // Reset the move
+            {                                                   // If cell is empty
+                board[i][j] = 2;                                // Try the computer's move
+                int score = minimax(board, alpha, beta, false); // Start minimax for the player's turn
+                board[i][j] = 0;                                // Reset the move
 
                 if (score > bestScore)
                 {

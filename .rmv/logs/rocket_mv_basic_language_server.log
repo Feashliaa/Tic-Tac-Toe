@@ -1,0 +1,150 @@
+2024-04-22 00:22:34.616 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2024-04-22 00:22:34.627 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2024-04-22 00:22:34.701 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2024-04-22 00:22:34.748 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2024-04-22 00:22:34.751 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:22:34.752 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:22:34.765 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:22:34.767 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2024-04-22 00:22:34.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.rmv/config
+2024-04-22 00:22:34.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2024-04-22 00:22:34.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/Rwdor
+2024-04-22 00:22:34.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2024-04-22 00:22:34.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2024-04-22 00:22:34.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2024-04-22 00:22:34.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: G:\test_folders\c++\windows-api-tic-tac-toe\Tic-Tac-Toe\.rmv\documentation\UNIVERSE\custom.json
+2024-04-22 00:22:34.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\Rwdor\documentation\UNIVERSE\custom.json
+2024-04-22 00:22:34.877 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2024-04-22 00:22:34.887 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe) load start
+2024-04-22 00:22:34.892 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2024-04-22 00:22:35.012 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2024-04-22 00:22:35.014 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2024-04-22 00:22:35.014 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2024-04-22 00:22:35.015 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2024-04-22 00:22:35.015 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe) load end
+2024-04-22 00:22:35.016 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/config/capability) doesn't exist or read error, default config will take effect
+2024-04-22 00:22:35.016 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2024-04-22 00:22:35.017 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2024-04-22 00:22:35.024 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2024-04-22 00:22:35.027 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2024-04-22 00:22:35.045 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Tic-Tac-Toe account
+2024-04-22 00:22:35.050 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.052 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.053 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Tic-Tac-Toe, its period 5s 
+2024-04-22 00:22:35.054 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2024-04-22 00:22:35.054 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.054 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2024-04-22 00:22:35.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2024-04-22 00:22:35.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.056 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2024-04-22 00:22:35.056 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2024-04-22 00:22:35.056 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.056 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.057 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2024-04-22 00:22:35.057 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2024-04-22 00:22:35.057 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.057 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.058 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2024-04-22 00:22:35.058 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2024-04-22 00:22:35.059 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.059 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.060 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2024-04-22 00:22:35.061 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2024-04-22 00:22:35.061 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.061 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.061 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2024-04-22 00:22:35.062 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2024-04-22 00:22:35.062 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:22:35.062 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:22:35.063 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2024-04-22 00:22:35.071 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=refs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs/refs, type=PREDICT}
+Account{name=remotes, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs/refs/remotes, type=PREDICT}
+Account{name=logs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs, type=PREDICT}
+Account{name=refs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/refs, type=PREDICT}
+Account{name=.git, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git, type=PREDICT}
+Account{name=objects, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/objects, type=PREDICT}
+Account{name=Tic-Tac-Toe, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe, type=PREDICT}
+Account{name=remotes, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/refs/remotes, type=PREDICT}
+2024-04-22 00:22:35.071 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2024-04-22 00:22:35.072 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Rwdor/.rmv/config) watcher launch successful
+2024-04-22 00:24:44.498 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2024-04-22 00:24:44.508 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2024-04-22 00:24:44.560 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2024-04-22 00:24:44.592 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2024-04-22 00:24:44.593 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:24:44.593 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:24:44.603 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///g%3A/test_folders/c%2B%2B/windows-api-tic-tac-toe/Tic-Tac-Toe
+2024-04-22 00:24:44.604 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2024-04-22 00:24:44.604 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.rmv/config
+2024-04-22 00:24:44.604 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2024-04-22 00:24:44.605 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/Rwdor
+2024-04-22 00:24:44.613 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2024-04-22 00:24:44.615 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2024-04-22 00:24:44.616 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2024-04-22 00:24:44.617 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: G:\test_folders\c++\windows-api-tic-tac-toe\Tic-Tac-Toe\.rmv\documentation\UNIVERSE\custom.json
+2024-04-22 00:24:44.618 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\Rwdor\documentation\UNIVERSE\custom.json
+2024-04-22 00:24:44.675 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2024-04-22 00:24:44.679 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe) load start
+2024-04-22 00:24:44.681 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2024-04-22 00:24:44.773 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2024-04-22 00:24:44.776 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2024-04-22 00:24:44.776 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2024-04-22 00:24:44.777 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2024-04-22 00:24:44.777 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe) load end
+2024-04-22 00:24:44.778 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/config/capability) doesn't exist or read error, default config will take effect
+2024-04-22 00:24:44.778 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2024-04-22 00:24:44.779 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2024-04-22 00:24:44.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2024-04-22 00:24:44.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2024-04-22 00:24:44.805 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Tic-Tac-Toe account
+2024-04-22 00:24:44.808 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.811 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Tic-Tac-Toe, its period 5s 
+2024-04-22 00:24:44.811 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2024-04-22 00:24:44.812 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.812 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.812 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2024-04-22 00:24:44.813 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2024-04-22 00:24:44.813 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.813 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.813 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2024-04-22 00:24:44.813 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2024-04-22 00:24:44.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2024-04-22 00:24:44.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2024-04-22 00:24:44.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2024-04-22 00:24:44.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2024-04-22 00:24:44.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.816 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.816 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2024-04-22 00:24:44.816 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2024-04-22 00:24:44.816 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.817 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.818 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2024-04-22 00:24:44.818 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2024-04-22 00:24:44.818 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-04-22 00:24:44.818 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-04-22 00:24:44.819 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2024-04-22 00:24:44.824 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=refs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs/refs, type=PREDICT}
+Account{name=remotes, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs/refs/remotes, type=PREDICT}
+Account{name=logs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/logs, type=PREDICT}
+Account{name=refs, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/refs, type=PREDICT}
+Account{name=.git, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git, type=PREDICT}
+Account{name=objects, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/objects, type=PREDICT}
+Account{name=Tic-Tac-Toe, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe, type=PREDICT}
+Account{name=remotes, path=G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe/.git/refs/remotes, type=PREDICT}
+2024-04-22 00:24:44.825 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2024-04-22 00:24:44.825 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Rwdor/.rmv/config) watcher launch successful
+2024-04-22 00:25:21.339 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:25:58.719 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:26:00.020 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:26:50.157 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:27:07.213 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:28:02.073 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:28:27.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
+2024-04-22 00:28:52.999 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(G:/test_folders/c++/windows-api-tic-tac-toe/Tic-Tac-Toe)
